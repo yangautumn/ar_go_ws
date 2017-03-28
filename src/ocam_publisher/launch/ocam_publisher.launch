@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="ocam_publisher" type="ocam_publisher" name="ocam_publisher" output="screen" />
+</launch>
