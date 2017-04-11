@@ -11,7 +11,7 @@ from cv_bridge import CvBridge, CvBridgeError
 class ss_detector:
     
     def __init__(self):
-        data_path = '/home/ao/self-driving-car/data/'
+        data_path = '../data/'
         self.image_sub = rospy.Subscriber('camera/image_raw', Image, self.callback)
         self.ss_pub = rospy.Publisher('stop_sign_bool', Int32, queue_size = 10)
         self.image_pub = rospy.Publisher('stop_sign_image', Image, queue_size = 10)
