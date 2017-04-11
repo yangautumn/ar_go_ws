@@ -62,7 +62,7 @@ int main (int argc, char* argv[])
 
     /* USB 3.0 */
     /* 8-bit Greyscale 1280 x 720 60 fps */
-    camera.set_format(1280, 720, Withrobot::fourcc_to_pixformat('G','R','E','Y'), 1, 60);
+    //camera.set_format(1280, 720, Withrobot::fourcc_to_pixformat('G','R','E','Y'), 1, 60);
 
     /* 8-bit Greyscale 1280 x 960 45 fps */
     //camera.set_format(1280, 960, Withrobot::fourcc_to_pixformat('G','R','E','Y'), 1, 45);
@@ -71,7 +71,7 @@ int main (int argc, char* argv[])
     // camera.set_format(320, 240, Withrobot::fourcc_to_pixformat('G','R','E','Y'), 1, 160);
 
     /* 8-bit Greyscale 640 x 480 80 fps */
-    // camera.set_format(640, 480, Withrobot::fourcc_to_pixformat('G','R','E','Y'), 1, 80);
+    camera.set_format(640, 480, Withrobot::fourcc_to_pixformat('G','R','E','Y'), 1, 80);
 
     /* USB 2.0 */
     /* 8-bit Greyscale 1280 x 720 30 fps */
@@ -130,7 +130,7 @@ int main (int argc, char* argv[])
     ros::init(argc, argv, "ocam_publisher");
     ros::NodeHandle n;
     image_transport::ImageTransport it(n);
-    image_transport::Publisher pub = it.advertise("camera/image", 1);
+    image_transport::Publisher pub = it.advertise("camera/image_raw", 1);
 
     /*
      * Main loop
