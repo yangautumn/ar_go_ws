@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yang/ar_go_ws/devel/.private/stop_sign_detector/setup.sh

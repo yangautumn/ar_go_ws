@@ -1,0 +1,9 @@
+ocam_publisher
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/share/ocam_publisher/cmake/ocam_publisherConfig.cmake /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisherConfig.cmake
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/share/ocam_publisher/cmake/ocam_publisher-msg-paths.cmake /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisher-msg-paths.cmake
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/share/ocam_publisher/cmake/ocam_publisherConfig-version.cmake /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisherConfig-version.cmake
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/share/ocam_publisher/cmake/ocam_publisher-msg-extras.cmake /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisher-msg-extras.cmake
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/share/roseus/ros/ocam_publisher/manifest.l /home/yang/ar_go_ws/devel/share/roseus/ros/ocam_publisher/manifest.l
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib/pkgconfig/ocam_publisher.pc /home/yang/ar_go_ws/devel/lib/pkgconfig/ocam_publisher.pc
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib/python2.7/dist-packages/ocam_publisher/__init__.py /home/yang/ar_go_ws/devel/lib/python2.7/dist-packages/ocam_publisher/__init__.py
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib/ocam_publisher/ocam_publisher /home/yang/ar_go_ws/devel/lib/ocam_publisher/ocam_publisher

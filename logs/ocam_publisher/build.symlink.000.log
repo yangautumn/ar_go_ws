@@ -1,0 +1,8 @@
+Symlinking /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisherConfig.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisher-msg-paths.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisherConfig-version.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/ocam_publisher/cmake/ocam_publisher-msg-extras.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/roseus/ros/ocam_publisher/manifest.l
+Symlinking /home/yang/ar_go_ws/devel/lib/pkgconfig/ocam_publisher.pc
+Symlinking /home/yang/ar_go_ws/devel/lib/python2.7/dist-packages/ocam_publisher/__init__.py
+Symlinking /home/yang/ar_go_ws/devel/lib/ocam_publisher/ocam_publisher

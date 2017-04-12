@@ -1,0 +1,8 @@
+Symlinking /home/yang/ar_go_ws/devel/./setup.bash
+Symlinking /home/yang/ar_go_ws/devel/./_setup_util.py
+Symlinking /home/yang/ar_go_ws/devel/./setup.zsh
+Symlinking /home/yang/ar_go_ws/devel/./setup.sh
+Symlinking /home/yang/ar_go_ws/devel/./env.sh
+Symlinking /home/yang/ar_go_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/yang/ar_go_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc

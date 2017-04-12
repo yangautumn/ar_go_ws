@@ -1,0 +1,8 @@
+prefix=/home/yang/ar_go_ws/devel/.private/ocam_publisher
+
+Name: ocam_publisher
+Description: Description of ocam_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib 
+Requires: cv_bridge image_transport message_runtime sensor_msgs

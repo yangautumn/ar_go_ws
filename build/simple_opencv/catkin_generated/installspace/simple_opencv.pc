@@ -1,8 +1,8 @@
-prefix=/home/ao/self-driving-car/install
+prefix=/home/yang/ar_go_ws/install
 
 Name: simple_opencv
 Description: Description of simple_opencv
 Version: 0.0.0
-Cflags: -I/home/ao/self-driving-car/install/include
-Libs: -L/home/ao/self-driving-car/install/lib 
+Cflags: -I/home/yang/ar_go_ws/install/include
+Libs: -L/home/yang/ar_go_ws/install/lib 
 Requires: roscpp std_msgs rosconsole roslib

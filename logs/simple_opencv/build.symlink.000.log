@@ -1,0 +1,8 @@
+Symlinking /home/yang/ar_go_ws/devel/share/simple_opencv/cmake/simple_opencvConfig-version.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/simple_opencv/cmake/simple_opencv-msg-extras.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/simple_opencv/cmake/simple_opencv-msg-paths.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/simple_opencv/cmake/simple_opencvConfig.cmake
+Symlinking /home/yang/ar_go_ws/devel/share/roseus/ros/simple_opencv/manifest.l
+Symlinking /home/yang/ar_go_ws/devel/lib/pkgconfig/simple_opencv.pc
+Symlinking /home/yang/ar_go_ws/devel/lib/python2.7/dist-packages/simple_opencv/__init__.py
+Symlinking /home/yang/ar_go_ws/devel/lib/simple_opencv/simple_node

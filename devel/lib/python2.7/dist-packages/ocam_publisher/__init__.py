@@ -1,0 +1,1 @@
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib/python2.7/dist-packages/ocam_publisher/__init__.py

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "cv_bridge;image_transport;message_runtime;sensor_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ocam_publisher"
-PROJECT_SPACE_DIR = "/home/ao/self-driving-car/install"
+PROJECT_SPACE_DIR = "/home/yang/ar_go_ws/install"
 PROJECT_VERSION = "0.0.0"

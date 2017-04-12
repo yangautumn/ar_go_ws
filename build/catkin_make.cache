@@ -1,2 +1,0 @@
-ocam_publisher:simple_opencv:stop_sign_detector
--DCATKIN_DEVEL_PREFIX=/home/ao/self-driving-car/devel -DCMAKE_INSTALL_PREFIX=/home/ao/self-driving-car/install -G Unix Makefiles

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ocam_publisher.dir/src/ocam_publisher.cpp.o"
-  "/home/ao/self-driving-car/devel/lib/ocam_publisher/ocam_publisher.pdb"
-  "/home/ao/self-driving-car/devel/lib/ocam_publisher/ocam_publisher"
+  "/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib/ocam_publisher/ocam_publisher.pdb"
+  "/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib/ocam_publisher/ocam_publisher"
 )
 
 # Per-language clean rules from dependency scanning.

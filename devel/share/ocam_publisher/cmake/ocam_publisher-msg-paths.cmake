@@ -1,4 +1,1 @@
-# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
-
-set(ocam_publisher_MSG_INCLUDE_DIRS "")
-set(ocam_publisher_MSG_DEPENDENCIES sensor_msgs)
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/share/ocam_publisher/cmake/ocam_publisher-msg-paths.cmake

@@ -11,14 +11,15 @@ from cv_bridge import CvBridge, CvBridgeError
 class ss_detector:
     
     def __init__(self):
-        data_path = '../data/'
+        data_path = '/home/yang/ar_go_ws/src/stop_sign_detector/data/'
         self.image_sub = rospy.Subscriber('camera/image_raw', Image, self.callback)
         self.ss_pub = rospy.Publisher('stop_sign_bool', Int32, queue_size = 10)
         self.image_pub = rospy.Publisher('stop_sign_image', Image, queue_size = 10)
         self.bridge = CvBridge()
         self.img1 = cv2.imread(data_path + 'ss1.jpeg', 0)
-        self.img2 = cv2.imread(data_path + 'road1.jpg',0)          # queryImage
-        self.rate = rospy.Rate(10)
+        self.img2 = cv2.imread(data_path + 'ss1.jpeg', 0)          # queryImage
+        self.rate = rospy.Rate(1)
+        rospy.spin()
 
          
     def callback(self, data):
@@ -31,10 +32,9 @@ class ss_detector:
         if cols > 60 and rows > 60:
             cv2.circle(cv_image, (50,50), 10, 255)
 
-        self.img1 = cv_image 
-        cv2.waitkey(2)
+        self.img2 = cv_image 
+        #cv2.waitkey(2)
     
-    def detect(self):
         # Initiate SIFT detector
         img1 = self.img1
         img2 = self.img2
@@ -84,11 +84,11 @@ class ss_detector:
         
 
         img4 = cv2.drawMatches(img1,kp1,img2,kp2,good,None,**draw_params)
-        plt.imshow(img4, 'gray'),plt.show()
+        plt.imshow(img4, 'gray'), plt.show()
         self.image_pub.publish(self.bridge.cv2_to_imgmsg(img4, "bgr8"))
 
 if __name__ == '__main__':
     rospy.init_node('stop_sign_detector', anonymous = True)
     detector = ss_detector()
-    detector.detect()
-    rospy.spin()
+    #detector.detect()
+    

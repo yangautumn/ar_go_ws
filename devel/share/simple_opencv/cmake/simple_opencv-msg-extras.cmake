@@ -1,2 +1,1 @@
-set(simple_opencv_MESSAGE_FILES "")
-set(simple_opencv_SERVICE_FILES "")
+/home/yang/ar_go_ws/devel/.private/simple_opencv/share/simple_opencv/cmake/simple_opencv-msg-extras.cmake

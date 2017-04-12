@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ao/self-driving-car/src/ocam_publisher/include/ocam_publisher/withrobot_camera.cpp
+/home/yang/ar_go_ws/src/ocam_publisher/include/ocam_publisher/withrobot_camera.cpp
 withrobot_camera.hpp
-/home/ao/self-driving-car/src/ocam_publisher/include/ocam_publisher/withrobot_camera.hpp
+/home/yang/ar_go_ws/src/ocam_publisher/include/ocam_publisher/withrobot_camera.hpp
 
-/home/ao/self-driving-car/src/ocam_publisher/include/ocam_publisher/withrobot_camera.hpp
+/home/yang/ar_go_ws/src/ocam_publisher/include/ocam_publisher/withrobot_camera.hpp
 linux/videodev2.h
 -
 sys/ioctl.h
@@ -44,13 +44,13 @@ sstream
 stdio.h
 -
 withrobot_utility.hpp
-/home/ao/self-driving-car/src/ocam_publisher/include/ocam_publisher/withrobot_utility.hpp
+/home/yang/ar_go_ws/src/ocam_publisher/include/ocam_publisher/withrobot_utility.hpp
 
-/home/ao/self-driving-car/src/ocam_publisher/include/ocam_publisher/withrobot_utility.cpp
+/home/yang/ar_go_ws/src/ocam_publisher/include/ocam_publisher/withrobot_utility.cpp
 withrobot_utility.hpp
-/home/ao/self-driving-car/src/ocam_publisher/include/ocam_publisher/withrobot_utility.hpp
+/home/yang/ar_go_ws/src/ocam_publisher/include/ocam_publisher/withrobot_utility.hpp
 
-/home/ao/self-driving-car/src/ocam_publisher/include/ocam_publisher/withrobot_utility.hpp
+/home/yang/ar_go_ws/src/ocam_publisher/include/ocam_publisher/withrobot_utility.hpp
 pthread.h
 -
 unistd.h
@@ -72,7 +72,7 @@ libudev.h
 sstream
 -
 
-/home/ao/self-driving-car/src/ocam_publisher/src/ocam_publisher.cpp
+/home/yang/ar_go_ws/src/ocam_publisher/src/ocam_publisher.cpp
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -86,11 +86,11 @@ stdio.h
 errno.h
 -
 opencv2/opencv.hpp
-/home/ao/self-driving-car/src/ocam_publisher/src/opencv2/opencv.hpp
+/home/yang/ar_go_ws/src/ocam_publisher/src/opencv2/opencv.hpp
 ocam_publisher/withrobot_camera.cpp
-/home/ao/self-driving-car/src/ocam_publisher/src/ocam_publisher/withrobot_camera.cpp
+/home/yang/ar_go_ws/src/ocam_publisher/src/ocam_publisher/withrobot_camera.cpp
 ocam_publisher/withrobot_utility.cpp
-/home/ao/self-driving-car/src/ocam_publisher/src/ocam_publisher/withrobot_utility.cpp
+/home/yang/ar_go_ws/src/ocam_publisher/src/ocam_publisher/withrobot_utility.cpp
 
 /opt/ros/kinetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

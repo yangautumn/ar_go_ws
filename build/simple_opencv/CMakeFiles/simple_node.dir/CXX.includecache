@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ao/self-driving-car/src/simple_opencv/include/simple_node/simple_node.h
+/home/yang/ar_go_ws/src/simple_opencv/include/simple_node/simple_node.h
 ros/ros.h
 -
 sensor_msgs/Image.h
@@ -34,7 +34,7 @@ opencv2/core/ocl.hpp
 image_transport/image_transport.h
 -
 
-/home/ao/self-driving-car/src/simple_opencv/src/simple_node.cpp
+/home/yang/ar_go_ws/src/simple_opencv/src/simple_node.cpp
 simple_node/simple_node.h
 -
 

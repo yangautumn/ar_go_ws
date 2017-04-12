@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ao/self-driving-car/src
+CMAKE_SOURCE_DIR = /home/yang/ar_go_ws/src/simple_opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ao/self-driving-car/build
+CMAKE_BINARY_DIR = /home/yang/ar_go_ws/build/simple_opencv
 
 # Include any dependencies generated for this target.
-include simple_opencv/CMakeFiles/simple_node.dir/depend.make
+include CMakeFiles/simple_node.dir/depend.make
 
 # Include the progress variables for this target.
-include simple_opencv/CMakeFiles/simple_node.dir/progress.make
+include CMakeFiles/simple_node.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include simple_opencv/CMakeFiles/simple_node.dir/flags.make
+include CMakeFiles/simple_node.dir/flags.make
 
-simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o: simple_opencv/CMakeFiles/simple_node.dir/flags.make
-simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o: /home/ao/self-driving-car/src/simple_opencv/src/simple_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ao/self-driving-car/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o"
-	cd /home/ao/self-driving-car/build/simple_opencv && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_node.dir/src/simple_node.cpp.o -c /home/ao/self-driving-car/src/simple_opencv/src/simple_node.cpp
+CMakeFiles/simple_node.dir/src/simple_node.cpp.o: CMakeFiles/simple_node.dir/flags.make
+CMakeFiles/simple_node.dir/src/simple_node.cpp.o: /home/yang/ar_go_ws/src/simple_opencv/src/simple_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yang/ar_go_ws/build/simple_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_node.dir/src/simple_node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_node.dir/src/simple_node.cpp.o -c /home/yang/ar_go_ws/src/simple_opencv/src/simple_node.cpp
 
-simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.i: cmake_force
+CMakeFiles/simple_node.dir/src/simple_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_node.dir/src/simple_node.cpp.i"
-	cd /home/ao/self-driving-car/build/simple_opencv && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ao/self-driving-car/src/simple_opencv/src/simple_node.cpp > CMakeFiles/simple_node.dir/src/simple_node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yang/ar_go_ws/src/simple_opencv/src/simple_node.cpp > CMakeFiles/simple_node.dir/src/simple_node.cpp.i
 
-simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.s: cmake_force
+CMakeFiles/simple_node.dir/src/simple_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_node.dir/src/simple_node.cpp.s"
-	cd /home/ao/self-driving-car/build/simple_opencv && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ao/self-driving-car/src/simple_opencv/src/simple_node.cpp -o CMakeFiles/simple_node.dir/src/simple_node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yang/ar_go_ws/src/simple_opencv/src/simple_node.cpp -o CMakeFiles/simple_node.dir/src/simple_node.cpp.s
 
-simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires:
+CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires:
 
-.PHONY : simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires
+.PHONY : CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires
 
-simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides: simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires
-	$(MAKE) -f simple_opencv/CMakeFiles/simple_node.dir/build.make simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides.build
-.PHONY : simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides
+CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides: CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires
+	$(MAKE) -f CMakeFiles/simple_node.dir/build.make CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides.build
+.PHONY : CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides
 
-simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides.build: simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o
+CMakeFiles/simple_node.dir/src/simple_node.cpp.o.provides.build: CMakeFiles/simple_node.dir/src/simple_node.cpp.o
 
 
 # Object files for target simple_node
@@ -88,144 +88,144 @@ simple_node_OBJECTS = \
 # External object files for target simple_node
 simple_node_EXTERNAL_OBJECTS =
 
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: simple_opencv/CMakeFiles/simple_node.dir/build.make
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libtf.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libtf2.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libimage_transport.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/libPocoFoundation.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libroslib.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librospack.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librostime.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
-/home/ao/self-driving-car/devel/lib/simple_opencv/simple_node: simple_opencv/CMakeFiles/simple_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ao/self-driving-car/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ao/self-driving-car/devel/lib/simple_opencv/simple_node"
-	cd /home/ao/self-driving-car/build/simple_opencv && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_node.dir/link.txt --verbose=$(VERBOSE)
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: CMakeFiles/simple_node.dir/src/simple_node.cpp.o
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: CMakeFiles/simple_node.dir/build.make
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libtf.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libtf2.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libimage_transport.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/libPocoFoundation.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libroslib.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librospack.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/librostime.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node: CMakeFiles/simple_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yang/ar_go_ws/build/simple_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-simple_opencv/CMakeFiles/simple_node.dir/build: /home/ao/self-driving-car/devel/lib/simple_opencv/simple_node
+CMakeFiles/simple_node.dir/build: /home/yang/ar_go_ws/devel/.private/simple_opencv/lib/simple_opencv/simple_node
 
-.PHONY : simple_opencv/CMakeFiles/simple_node.dir/build
+.PHONY : CMakeFiles/simple_node.dir/build
 
-simple_opencv/CMakeFiles/simple_node.dir/requires: simple_opencv/CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires
+CMakeFiles/simple_node.dir/requires: CMakeFiles/simple_node.dir/src/simple_node.cpp.o.requires
 
-.PHONY : simple_opencv/CMakeFiles/simple_node.dir/requires
+.PHONY : CMakeFiles/simple_node.dir/requires
 
-simple_opencv/CMakeFiles/simple_node.dir/clean:
-	cd /home/ao/self-driving-car/build/simple_opencv && $(CMAKE_COMMAND) -P CMakeFiles/simple_node.dir/cmake_clean.cmake
-.PHONY : simple_opencv/CMakeFiles/simple_node.dir/clean
+CMakeFiles/simple_node.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/simple_node.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/simple_node.dir/clean
 
-simple_opencv/CMakeFiles/simple_node.dir/depend:
-	cd /home/ao/self-driving-car/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ao/self-driving-car/src /home/ao/self-driving-car/src/simple_opencv /home/ao/self-driving-car/build /home/ao/self-driving-car/build/simple_opencv /home/ao/self-driving-car/build/simple_opencv/CMakeFiles/simple_node.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : simple_opencv/CMakeFiles/simple_node.dir/depend
+CMakeFiles/simple_node.dir/depend:
+	cd /home/yang/ar_go_ws/build/simple_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/ar_go_ws/src/simple_opencv /home/yang/ar_go_ws/src/simple_opencv /home/yang/ar_go_ws/build/simple_opencv /home/yang/ar_go_ws/build/simple_opencv /home/yang/ar_go_ws/build/simple_opencv/CMakeFiles/simple_node.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/simple_node.dir/depend
 

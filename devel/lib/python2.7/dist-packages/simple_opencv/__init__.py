@@ -1,0 +1,1 @@
+/home/yang/ar_go_ws/devel/.private/simple_opencv/lib/python2.7/dist-packages/simple_opencv/__init__.py

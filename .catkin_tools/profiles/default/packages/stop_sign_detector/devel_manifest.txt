@@ -1,0 +1,4 @@
+stop_sign_detector
+/home/yang/ar_go_ws/devel/.private/stop_sign_detector/share/stop_sign_detector/cmake/stop_sign_detectorConfig.cmake /home/yang/ar_go_ws/devel/share/stop_sign_detector/cmake/stop_sign_detectorConfig.cmake
+/home/yang/ar_go_ws/devel/.private/stop_sign_detector/share/stop_sign_detector/cmake/stop_sign_detectorConfig-version.cmake /home/yang/ar_go_ws/devel/share/stop_sign_detector/cmake/stop_sign_detectorConfig-version.cmake
+/home/yang/ar_go_ws/devel/.private/stop_sign_detector/lib/pkgconfig/stop_sign_detector.pc /home/yang/ar_go_ws/devel/lib/pkgconfig/stop_sign_detector.pc

@@ -1,8 +1,1 @@
-prefix=/home/ao/self-driving-car/devel
-
-Name: ocam_publisher
-Description: Description of ocam_publisher
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/ao/self-driving-car/devel/lib 
-Requires: cv_bridge image_transport message_runtime sensor_msgs
+/home/yang/ar_go_ws/devel/.private/ocam_publisher/lib/pkgconfig/ocam_publisher.pc

@@ -1,8 +1,1 @@
-prefix=/home/ao/self-driving-car/devel
-
-Name: stop_sign_detector
-Description: Description of stop_sign_detector
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/ao/self-driving-car/devel/lib 
-Requires: 
+/home/yang/ar_go_ws/devel/.private/stop_sign_detector/lib/pkgconfig/stop_sign_detector.pc

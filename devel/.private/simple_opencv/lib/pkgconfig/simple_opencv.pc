@@ -1,0 +1,8 @@
+prefix=/home/yang/ar_go_ws/devel/.private/simple_opencv
+
+Name: simple_opencv
+Description: Description of simple_opencv
+Version: 0.0.0
+Cflags: -I/home/yang/ar_go_ws/src/simple_opencv/include
+Libs: -L/home/yang/ar_go_ws/devel/.private/simple_opencv/lib 
+Requires: roscpp std_msgs rosconsole roslib

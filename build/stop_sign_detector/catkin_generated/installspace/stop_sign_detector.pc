@@ -1,8 +1,8 @@
-prefix=/home/ao/self-driving-car/install
+prefix=/home/yang/ar_go_ws/install
 
 Name: stop_sign_detector
 Description: Description of stop_sign_detector
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/ao/self-driving-car/install/lib 
+Libs: -L/home/yang/ar_go_ws/install/lib 
 Requires: 
