@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="stop_sign_detector" type="detector.py" name="ss_detector" output="screen" />
+</launch>
