@@ -1,0 +1,17 @@
+<package>
+  <description brief="rolling_ball">
+
+     rolling_ball
+
+  </description>
+  <author>Ao Liu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rolling_ball</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+

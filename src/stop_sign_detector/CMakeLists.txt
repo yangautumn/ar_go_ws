@@ -8,6 +8,10 @@ project(stop_sign_detector)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  cv_bridge
+  image_transport
+  sensor_msgs
+  message_generation
   roscpp
   rospy
   std_msgs
@@ -116,8 +120,9 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 # include_directories(include)
-include_directories(
+include_directories(include
   ${catkin_INCLUDE_DIRS}
+  ${OpenCV_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -133,7 +138,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/stop_sign_detector_node.cpp)
+add_executable(stop_sign_detector src/stop_sign_detector.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -192,7 +197,9 @@ include_directories(
 ## Add gtest based cpp test target and link libraries
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_stop_sign_detector.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
-#   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
+target_link_libraries(
+  stop_sign_detector ${OpenCV_LIBRARIES} ${catkin_LIBRARIES}
+)
 # endif()
 
 ## Add folders to be run by python nosetests

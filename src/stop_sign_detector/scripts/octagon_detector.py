@@ -26,6 +26,8 @@ class ss_detector:
 		shape = "unidentified"
 		peri = cv2.arcLength(c, True)
 		approx = cv2.approxPolyDP(c, 0.04 * peri, True)
+		if not cv2.isContourConvex(approx):
+			return "circle"
 		if len(approx) == 8:
 			shape = "octagon"
 		else:
@@ -41,16 +43,15 @@ class ss_detector:
 			print(e)
 
 		(rows, cols, channels) = cv_image.shape
-		if cols > 60 and rows > 60:
-			cv2.circle(cv_image, (50,50), 10, 255)
 		gray = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
 		image = gray
 		blurred = cv2.GaussianBlur(gray, (5, 5), 0)
 		#blurred = cv2.GaussianBlur(gray, (5, 5), 0)
-		thresh = cv2.threshold(blurred, 160, 255, cv2.THRESH_BINARY)[1]
+		thresh = cv2.threshold(blurred, 120, 255, cv2.THRESH_BINARY_INV)[1]
 		
 		# find contours in the thresholded image
-		cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+		#cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+		cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 		cnts = cnts[0] if imutils.is_cv2() else cnts[1]
 		
 		# loop over the contours
@@ -62,12 +63,16 @@ class ss_detector:
 			#cY = int((M["m01"] / (M["m00"] +1e-7)) * ratio)
 			cX = int(M["m10"] / (M["m00"] +1e-7))
 			cY = int(M["m01"] / (M["m00"] +1e-7))
+			# draw the contour and center of the shape on the image
+			area = cv2.contourArea(c)
+			if area < 2000:
+				continue
 			shape = self.detect_shape(c)
 			if shape != 'octagon':
 				continue
-			oct_num += 1	
-			# draw the contour and center of the shape on the image
 			cv2.drawContours(image, [c], -1, (0, 255, 0), 2)
+			oct_num += 1	
+			print(area)
 			cv2.putText(image, shape, (cX, cY),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 		 

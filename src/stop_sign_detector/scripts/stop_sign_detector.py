@@ -5,7 +5,7 @@ import cv2
 import rospy
 from matplotlib import pyplot as plt
 from std_msgs.msg import Int32
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import Image, CompressedImage
 from cv_bridge import CvBridge, CvBridgeError
 
 class ss_detector:
@@ -13,6 +13,7 @@ class ss_detector:
     def __init__(self):
         #data_path = '/home/yang/ar_go_ws/src/stop_sign_detector/data/'
         data_path = '/home/ao/self-driving-car/src/stop_sign_detector/data/'
+        #self.image_sub = rospy.Subscriber('cv_camera/image_raw/compressed', CompressedImage, self.callback)
         self.image_sub = rospy.Subscriber('cv_camera/image_raw', Image, self.callback)
         self.ss_pub = rospy.Publisher('stop_sign_bool', Int32, queue_size = 10)
         self.image_pub = rospy.Publisher('stop_sign_image', Image, queue_size = 10)
@@ -30,8 +31,6 @@ class ss_detector:
             print(e)
 
         (rows, cols, channels) = cv_image.shape
-        if cols > 60 and rows > 60:
-            cv2.circle(cv_image, (50,50), 10, 255)
 
         self.img2 = cv_image 
         #cv2.waitkey(2)
