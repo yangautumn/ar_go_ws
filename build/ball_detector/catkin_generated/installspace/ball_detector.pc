@@ -1,0 +1,8 @@
+prefix=/home/ao/self-driving-car/install
+
+Name: ball_detector
+Description: Description of ball_detector
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ao/self-driving-car/install/lib 
+Requires: 

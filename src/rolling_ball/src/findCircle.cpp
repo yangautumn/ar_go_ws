@@ -104,7 +104,7 @@ public:
 		int highThreshold = lowThreshold * ratio;
 
         //HoughCircles( src_gray, circles, CV_HOUGH_GRADIENT, 2, 20, 100, 245, 20, 300);  // NEEDS TO BE TUNED
-        HoughCircles( src_gray, circles, CV_HOUGH_GRADIENT, 2, 200, highThreshold, 150, 20, 300);  // NEEDS TO BE TUNED
+        HoughCircles( src_gray, circles, CV_HOUGH_GRADIENT, 2, 10, highThreshold, 100, 20, 300);  // NEEDS TO BE TUNED
 
         ROS_INFO("Number of circles = %d", circles.size());
 

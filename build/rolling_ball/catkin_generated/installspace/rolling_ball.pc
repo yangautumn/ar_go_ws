@@ -1,0 +1,8 @@
+prefix=/home/ao/self-driving-car/install
+
+Name: rolling_ball
+Description: Description of rolling_ball
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ao/self-driving-car/install/lib 
+Requires: message_runtime
